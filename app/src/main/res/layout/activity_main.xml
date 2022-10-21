@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    tools:context=".MainActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="50dp"
+        app:civ_border_width="10dp"
+        app:civ_border_color="@color/blue"
+        android:src="@drawable/gambar1"
+        android:layout_width="300dp"
+        android:layout_height="250dp"/>
+
+    <Button
+        android:drawableTint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+        android:id="@+id/btnTelp"
+        android:text="TELEPON"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@color/blue"
+        android:layout_width="150dp"
+        android:layout_height="50dp"/>
+
+    <View
+        android:background="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <View
+        android:layout_marginTop="690dp"
+        android:background="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <ImageView
+        android:layout_marginTop="550dp"
+        android:src="@drawable/iwave2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <ImageView
+        android:src="@drawable/header_wave"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="470dp"
+        android:backgroundTint="@color/blue"
+        android:drawableLeft="@drawable/orang"
+        android:drawableTint="@color/white"
+        android:text="My Bio"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btMaps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/blue"
+        android:drawableLeft="@drawable/map"
+        android:drawableTint="@color/white"
+        android:textAllCaps="false"
+        android:text="Maps"
+        android:textColor="@color/white"
+        app:layout_constraintHorizontal_bias="0.687"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="@color/blue"
+        android:drawableLeft="@drawable/awes"
+        android:drawableTint="@color/white"
+        android:text="Email"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="545dp"
+        android:drawableTint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_assignment_ind_24"
+        android:textColor="@color/white"
+        android:id="@+id/btnInsta"
+        android:backgroundTint="@color/blue"
+        android:text="Instagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txt"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="690dp"
+        android:layout_marginLeft="70dp"
+        android:text="Universitas Dian Nuswantoro"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</RelativeLayout>
